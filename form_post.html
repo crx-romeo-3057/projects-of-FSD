@@ -1,0 +1,21 @@
+<!--templates/form_post.html-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Post Form</title>
+</head>
+<body>
+<h2>Course Registration Form(POST)</h2>
+<form action="/submit-post" method="post">
+<label>Name:<input type="text" name="name" required></label><br><br>
+<label>Course:
+<select name="course">
+<option value="java">Java</option>
+<option value="python">Python</option>
+<option value="web Dev">web Development</option>
+</select>
+</label><br><br>
+<input type="submit" value="submit(POST)">
+</form>
+</body>
+</html>
